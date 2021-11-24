@@ -5,7 +5,12 @@ $(window).on("load", function() {
 	});
 
 })
-
+document.getElementById("githubPage").onclick = function () {
+    location.href = "https://github.com/theyup12/";
+};
+document.getElementById("emailPage").onclick = function () {
+    location.href = "mailTo:dongyicao1234@gmail.com/";
+};
 $(document).ready(function() {
 
 	var typed = new Typed(".typed", {

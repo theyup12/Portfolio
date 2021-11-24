@@ -174,7 +174,10 @@ body {
 .card-btn{
 	text-align: center;
 }
-
+.contact {
+    position: relative;
+    display: inline-block;
+}
 
 
 
