@@ -56,6 +56,9 @@ $(document).ready(function() {
 	}
 
 });
+function countVisitor(response) {
+    document.querySelector('#visits').textContent = response.value;
+}
 
 
 
